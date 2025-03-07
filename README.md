@@ -13,7 +13,7 @@ miniconda3/bin/conda init zsh
 # MAC
 ```
 mkdir -p miniconda3
-curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh  -O   miniconda3/miniconda.sh
 bash miniconda3/miniconda.sh -b -u -p miniconda3
 rm -rf miniconda3/miniconda.sh
 miniconda3/bin/conda init bash
