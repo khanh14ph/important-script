@@ -24,3 +24,5 @@ Install pyaudio for MAC
 brew install portaudio
 pip install --global-option='build_ext' --global-option='-I/usr/local/include' --global-option='-L/usr/local/lib' pyaudio
 ```
+##
+fuser -v /dev/nvidia2 2>&1 | grep voice | awk '{print $2}'
